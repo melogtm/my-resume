@@ -52,7 +52,7 @@
     font-weight: bolder;
 }
 .project img {
-    height: 200px;
+    height: 10rem;
     border: 2px solid #798777;
 }
 .project button {
@@ -61,10 +61,23 @@
     padding: 10px;
     background-color: #6c8364;
 }
+
+.project button:hover {
+    transform: scale(1.1);
+}
+
 .project button a {
     font-weight: bold;
     color: white; 
     text-decoration: none;
+}
+
+footer {
+    background: linear-gradient(256deg, #bdd2b6, #798777);
+    background-size: 400% 400%;
+    -webkit-animation: linearGrad 22s ease infinite;
+    -moz-animation: linearGrad 22s ease infinite;
+    animation: linearGrad 22s ease infinite;
 }
 
 @-webkit-keyframes linearGrad {
